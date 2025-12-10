@@ -6,4 +6,6 @@ compile:
 link:
 	g++ main.o cell.o -o main.exe -Lsrc/lib -lsfml-graphics -lsfml-window -lsfml-system
 
+run:
+	./main.exe
 	

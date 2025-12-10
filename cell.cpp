@@ -59,7 +59,7 @@ void CellManager::Draw(sf::RenderWindow& _window)
 				sf::RectangleShape _waterShape = sf::RectangleShape();
 				_waterShape.setPosition({i * cell_size, j * cell_size});
 				_waterShape.setSize(sf::Vector2f(cell_size, cell_size));
-				_waterShape.setFillColor(sf::Color::White);
+				_waterShape.setFillColor(sf::Color::Blue);
 
 				_window.draw(_waterShape);
 			}
